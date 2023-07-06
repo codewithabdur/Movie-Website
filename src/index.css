@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* background-image: url(./asset/bg.jpg); */
+    background: linear-gradient(90deg, #31075D, #632995);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cursor: url('./asset/cursor.png'), auto; */
+}
+
+/* #b91acb */
+::selection{
+    background: #b91acb;
+    color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,5 @@
+export { default as HollywoodPage } from './HollywoodPage/HollywoodPage'
+export { default as Hollywood2010 } from './Hollywood2010/Hollywood2010'
+export { default as H2010 } from './2010/H2010'
+export { default as Hollywood } from './Hollywood/Hollywood'
+export { default as TopRated } from './TopRated/TopRated'
