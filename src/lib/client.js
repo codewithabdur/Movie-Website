@@ -5,7 +5,7 @@ const client = sanityClient({
     dataset: 'production' ,
     apiVersion: "2023-06-24",
     useCdn: false,
-    tokens: "skRuilzkWHQ0pKC1gegYzNSRMJb9LuSnqrKE8ICuJn8hIawVynFJ7gGaGjzLX63SiYOAS2TegtdNCYFvLq5SjA38RT5m1dkpp3PV4R5j1C0skqlrDL516lWFK2KFQ0QID0nea0Mufa1ASb9GejZviiQ9l4s8W3swgkb2NExBWZC0xIB0qE6a"
+    tokens: process.env.REACT_TOKENS
 })
 
 const updateUserPermissions = async (email) => {
