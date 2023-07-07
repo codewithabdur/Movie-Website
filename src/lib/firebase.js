@@ -11,7 +11,7 @@ import "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBSIkPvTwGYniV0pi1phsKA4nvWdbbLjxc",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "register-data-bed5b.firebaseapp.com",
   databaseURL: "https://register-data-bed5b-default-rtdb.firebaseio.com",
   projectId: "register-data-bed5b",
